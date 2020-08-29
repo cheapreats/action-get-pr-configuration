@@ -1,4 +1,4 @@
-const PR_CONFIG_TOKEN = /CE_CONFIG:\r?\n/g;
+const PR_CONFIG_TOKEN = /PR_CONFIG:\r?\n/g;
 
 module.exports = {
 
