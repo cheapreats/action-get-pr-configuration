@@ -1,4 +1,4 @@
-const PR_CONFIG_TOKEN = 'CE_CONFIG:\n';
+const PR_CONFIG_TOKEN = /CE_CONFIG:\r?\n/g;
 
 module.exports = {
 
@@ -24,7 +24,7 @@ module.exports = {
      */
     parseConfiguration: function (configString) {
         let configuration = {};
-        const lines       = configString.split('\n');
+        const lines       = configString.split(/\r?\n/g);
         for (const line of lines) {
             if (line) {
                 const tokens             = line.split('=');

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f0ea958-b4dc-49d9-8568-d7ba2d2bc38d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/utilities/github.js" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/github.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/parser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598740630623</updated>
-      <workItem from="1598740631999" duration="1153000" />
+      <workItem from="1598740631999" duration="1404000" />
     </task>
     <servers />
   </component>
