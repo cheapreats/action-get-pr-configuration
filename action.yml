@@ -1,0 +1,13 @@
+name: 'Get PR Configuration and Information'
+description: 'Get PR configuration written in CE PR config format.'
+inputs:
+  github-token:
+    description: 'GITHUB_TOKEN variable used to call GitHub APIs.'
+    required: true
+    default: 'NOT_PROVIDED'
+outputs:
+  pr:
+    description: 'Parsed pull request details.'
+runs:
+  using: 'node12'
+  main: 'index.js'
