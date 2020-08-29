@@ -8,6 +8,16 @@ module.exports = {
      * @returns {!Promise<?{number: !number, title: !string, body: !string}>}
      */
     getPullRequestAssociatedWithContext: async function () {
+
+        // If the context already have PR, just return the data.
+        if (context.payload.pull_request) {
+            return {
+                number: context.payload.pull_request.number,
+                title: context.payload.pull_request.title || '',
+                body: context.payload.pull_request.body || ''
+            }
+        }
+
         const token = core.getInput('github-token', {required: true});
         const sha   = core.getInput('sha');
 
